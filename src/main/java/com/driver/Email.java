@@ -48,8 +48,8 @@ public class Email {
         for(int i=0;i<newPassword.length();i++){
             char ch=newPassword.charAt(i);
             if(ch>='a' && ch<='z')lowercase=true;
-            else if(ch>='A' && ch<='z')uppercase=true;
-            else if(ch>=0 && ch<=9)digit=true;
+            else if(ch>='A' && ch<='Z')uppercase=true;
+            else if(ch>='0' && ch<='9')digit=true;
             else specialchar=true;
         }
 
