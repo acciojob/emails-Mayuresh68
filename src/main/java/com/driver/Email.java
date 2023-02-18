@@ -31,8 +31,11 @@ public class Email {
                 System.out.println("password change successfully");
             }
             else{
-                System.out.println("password not matching old password");
+                System.out.println("password is not valid");
             }
+        }
+        else{
+            System.out.println("password not matching old password");
         }
     }
     public boolean isValid(String newPassword){
